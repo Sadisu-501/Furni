@@ -5,21 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Furni.</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="padding">
         <div class="nav-container">
           <div class="nav-logo">
             <h1>Furni.</h1>
           </div>
           <div class="nav-content">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Services</a>
-            <a href="">Blog</a>
-            <a href="">Contact</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
           </div>
+
+                  <!--hamburger icon-->
+        <div id="hamburgerIcon" class="menuBtn">
+          <ion-icon class="icon" name="grid"></ion-icon>
+      </div>
+      <div id="menu" class="menu close">
+          <a href="#" target="_blank" rel="noopener noreferrer">Home</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">About</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Services</a>
+          <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
+      </div>
         </div>
 
 <!-- nav body container -->
@@ -28,32 +40,39 @@
               <h1>Modern Interior</h1>
               <h1>Design Studio</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing <br />
-                Nam quam ea modi culpa illo, <br />excepturi ipsa ullam
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                Nam quam ea <br> modi culpa  illo,excepturi ipsa ullam
                 obcaecati reprehenderit mollitia.
               </p>
-              <button class="btn-1">Shop now</button>
+              
+            
+                <button class="btn-1">Shop now</button>
               <button class="btn-2">Explore</button>
+           
+              
             </div>
             <div>
               <img src="img/cusion.png" alt="cusion chair" />
             </div>
 
+            <button class="button-1">Shop now</button>
+            <button class="button-2">Explore</button>
+         
           </div>
         </div>
       </nav>
+      <!-- End of the nav section -->
     </header>
     <!--main content section-->
-    <main>
+    <main class="padding">
       <div class="main-container">
         <div class="main-content-1">
-          <h1>Crafted with <br />excellent <br />material.</h1>
+          <h1>Crafted with excellent <br />material.</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur <br />
-            adipisicing elit. Ducimus nobis placeat accusamus <br />dolorem
-            error dicta autem molestias rerum eaque, <br />
-            expedita quas aut debitis <br />
-            illo! Odio harum deleniti quaerat aut corrupti?
+            Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. nobis placeat accusamus dolorem
+            error dicta autem molestias rerum  eaque, 
+            expedita quas aut debitis illo! 
           </p>
           <button>Explore</button>
         </div>
@@ -64,135 +83,154 @@
           <p>50.00$</p>
         </div>
 
-        <div class="main-content-3">
+        <div class="main-content-2">
           <img src="img/chair2.png" alt="kruzo aero chair" />
           <h3>Kruzo aero chair</h3>
           <p>78.00$</p>
         </div>
 
-        <div class="main-content-4">
+        <div class="main-content-2">
 
           <img src="img/chair5.png" alt="ergonomic chair" />
-          <img src="img/chair3.png" alt="ergonomic chair" />
+          
           <h3>Ergonomic chair</h3>
           <p>48.00$</p>
         </div>
+          <button class="explore-btn">Explore</button>
       </div>
     </main>
+<!-- end of the main section -->
+<!-- ********************** -->
 
-    <section>
+<!-- beginning of the text header section-->
+    <section class="padding">
       <div class="text-header">
         <h1>Why choose us</h1>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat quas
+          Lorem, ipsum dolor br sit amet consectetur adipisicing elit. Fugiat quas
           omnis, <br />commodi expedita consequuntur cupiditate necessitatibus.
         </p>
       </div>
 
       <div class="text-container">
+        <div class="text-content">
+          <div>
+            <h3>Fast and free shipping</h3>
+            <p>
+              Lorem ipsum dolor sit  consectetur adipisicing elit. Quos
+              
+            </p>
+          </div>
+          <div>
+            <h3>Easy to shop</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              
+            </p>
+          </div>
+          <div>
+            <h3>24/7 support</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+              
+            </p>
+          </div>
+  
+          <div>
+            <h3>Hassle free returns</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+             
+            </p>
+          </div>
+        </div>
         <div>
-          <h3>Fast and free shipping</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-            temporibus ullam vero dolore enim magni maiores culpa modi corrupti
-            amet.
-          </p>
-        </div>
-        <div class="shop">
-          <h3>Easy to shop</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-            temporibus ullam vero dolore enim magni maiores culpa modi corrupti
-            amet.
-          </p>
-        </div>
-        <div>
-          <h3>24/7 support</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-            temporibus ullam vero dolore enim magni maiores culpa modi corrupti
-            amet.
-          </p>
-        </div>
-
-        <div>
-          <h3>Hassle free returns</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
-            temporibus ullam vero dolore enim magni maiores culpa modi corrupti
-            amet.
-          </p>
-        </div>
-        <div class="img">
-          <img src="img/deco.png" alt="photo of a lamp" width="500px" />
+          <img src="img/sofa.png" alt="photo of a sofa"   />
+       
         </div>
       </div>
     </section>
+<!-- end of the text header section -->
+<!-- ********************************* -->
 
+<!-- start of the div-container section(2nd text-header) -->
     <section>
-      <div class="div-container">
-        <div class="div-img">
-          <img src="img/deco-2.png" alt="" width="600px" />
+      <div class="div-container padding">
+        <div >
+          <img src="img/deco-2.png" alt=""  />
         </div>
 
         <div class="div-text">
+         <div>
           <h1>
             We help you make <br />
             modern interior design
           </h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.br <br />
-            Porro fugiat, libero hic amet nemo nihil officia <br />fugit eos
-            aperiam reiciendis possimus soluta,<br />
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Porro fugiat, libero hic amet nemo nihil officia fugit eos
+            aperiam reiciendis possimus soluta,
             itaque odit voluptas similique quisquam, corporis at saepe deleniti
-            ab <br />
+            ab
             omnis nulla laudantium! Eligendi culpa dolor magnam tenetur!
           </p>
-        </div>
-      </div>
-      <div class="div-text-2-container">
-        <div class="div-text-2">
           <p>
-            Lorem ipsum dolor sit amet consectetur, <br />
-            adipisicing elit. Nemo accusantium enim eius.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Porro fugiat, libero hic amet nemo nihil officia fugit eos
+            aperiam reiciendis possimus soluta,
+            itaque odit voluptas similique quisquam, corporis at saepe deleniti
           </p>
+          <div>
+            <button class="explore">Explore</button>
+          </div>
+         </div>
         </div>
-        <div class="div-text-2">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, <br />
-            adipisicing elit. Nemo accusantium enim eius.
-          </p>
-        </div>
-        <div class="div-text-2">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, <br />
-            adipisicing elit. Nemo accusantium enim eius.
-          </p>
-        </div>
-        <div class="div-text-2">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, <br />
-            adipisicing elit. Nemo accusantium enim eius.
-          </p>
-        </div>
-
-        <button class="explore">Explore</button>
       </div>
     </section>
+<!-- end of the div-container section(2nd text-header)  -->
 
+<!-- start of the before footer section -->
+    <section class="padding">
+        <div class="before-footer-container ">
+          <div class="before-footer-content">
+           
+              <img src="img/chair1.png" alt="nordic chair" />
+         <div> <h3>Nordic chair</h3>
+          <p>50.00$</p>
+        </div>
+         
+          <img src="img/chair2.png" alt="kruzo aero chair" />
+          <h3>Kruzo aero chair</h3>
+          <p>78.00$</p>
+          
+          <img src="img/chair5.png" alt="ergonomic chair" />
+          
+          <h3>Ergonomic chair</h3>
+          <p>48.00$</p>
+          </div>
+        </div>
+    </section>
+    <!-- end of the before footer section -->
+
+<!-- start of the footer section -->
     <footer>
-      <div class="footer-container">
+      <div class="footer-container padding">
         <div class="footer-content">
           <h1>Contact us today</h1>
         </div>
         <div class="footer-text">
-          <p>Email: Furni@enquiries</p>
+            <p>Email: Furni@enquiries</p>
           <p>Facebook: Furni luxury</p>
           <p>Instagram: Furni lifestyle</p>
           <p>&copy;furni 2024</p>
-          <p>All Rights reserved.</p>
         </div>
+        <p>All Rights reserved.</p>
       </div>
     </footer>
+    <!-- end of the footer section -->
+
+    <!-- script for the icon -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
