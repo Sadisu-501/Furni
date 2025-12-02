@@ -14,6 +14,11 @@
   --dark-text-color: #e7e3e3;
   --accent-color: rgb(255, 215, 0);
 }
+body {
+
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 header {
   background-color: #2a6041;
   height: 80vh;
@@ -255,6 +260,15 @@ header {
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
+.text-content-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.text-content-icon ion-icon {
+  color: var(--background-color);
+  font-size: 1.5rem;
+}
 .text-container img {
   width: 100%;
   max-width: 300px;
@@ -337,7 +351,10 @@ p {
 .before-footer-content h3 {
   margin-top: 1rem;
 }
+
+
 /* end of before the footer styles */
+
 footer {
   background: #222;
   color: #fff;
@@ -441,7 +458,7 @@ footer {
 
   .hero-body p {
     font-size: 0.8rem;
-    max-width: 52ch;
+    max-width: 90%;
     line-height: 1.1rem;
     margin-bottom: 1rem;
   }
