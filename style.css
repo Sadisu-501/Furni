@@ -15,7 +15,6 @@
   --accent-color: rgb(255, 215, 0);
 }
 body {
-
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -156,8 +155,10 @@ header {
   align-items: center;
 }
 .main-heading {
-  width: 500px;
+  font-family: var(--primary-font);
+  width: 400px;
   padding: 2rem;
+  border-radius: 20px;
   box-shadow: rgba(141, 142, 143, 0.1) 0px 8px 24px;
 }
 .main-heading p {
@@ -210,6 +211,7 @@ header {
 }
 
 .text-header h1 {
+  font-family: var(--primary-font);
   font-size: 2.5rem;
   font-weight: 700;
   color: #222;
@@ -295,10 +297,11 @@ header {
 .div-text,
 p {
   text-align: justify;
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 .div-text h1 {
   font-size: 2rem;
+  font-family: var(--primary-font);
 }
 
 .div-text p {
@@ -351,7 +354,6 @@ p {
 .before-footer-content h3 {
   margin-top: 1rem;
 }
-
 
 /* end of before the footer styles */
 
@@ -475,7 +477,7 @@ footer {
     gap: 2rem;
   }
   .main-heading button {
-    width: 90%;
+    width: 100%;
   }
   .main-heading h1 {
     font-size: 1.3rem;
@@ -524,7 +526,7 @@ footer {
 
   .before-footer-content {
     flex-direction: column;
-    gap: 1rem;
+    gap: 3rem;
   }
 }
 /* media for mobile upward */
