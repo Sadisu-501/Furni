@@ -364,9 +364,14 @@ footer {
   text-align: center;
   font-family: var(--primary-font);
 }
-
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
 .footer-content h2 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 .footer-content p a {
   color: #87ceeb;
@@ -392,6 +397,37 @@ footer {
   opacity: 0.7;
 }
 /* end of footer styles */
+
+/* Floating Button Styles */
+.floating-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+
+.floating-btn:hover {
+  background-color: #e6c200;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  transform: scale(1.1);
+}
+
+.floating-btn:active {
+  transform: scale(0.95);
+}
 
 /* responsive design for mobile devices and lower */
 /* ********************************************** */
@@ -530,6 +566,9 @@ footer {
     flex-direction: column;
     gap: 3rem;
   }
+  .footer-container {
+    flex-direction: column;
+  }
   .footer-content h2,
   .footer-social a {
     font-size: 1.1rem;
@@ -650,6 +689,9 @@ footer {
   .div-text p {
     font-size: 0.9rem;
   }
+  .footer-container {
+    flex-direction: column;
+  }
 }
 
 /* Responsive layout for tablets */
@@ -710,6 +752,11 @@ footer {
 
   .before-footer-content {
     flex-direction: column;
+  }
+
+  .floating-btn {
+    bottom: 20px;
+    right: 20px;
   }
 }
 
